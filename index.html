@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>TowerShot Support</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { margin: 0; background: #f5f5fa; color: #17171d; }
+    main { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
+    .mark { width: 58px; height: 58px; display: grid; place-items: center; border-radius: 16px; background: #37318f; color: white; font-size: 30px; }
+    h1 { margin: 22px 0 8px; font-size: clamp(36px, 7vw, 54px); letter-spacing: -0.04em; }
+    .intro { margin: 0 0 36px; color: #62626d; font-size: 19px; line-height: 1.5; }
+    section { margin-top: 18px; padding: 24px; background: white; border: 1px solid #e3e3ea; border-radius: 20px; }
+    h2 { margin: 0 0 12px; font-size: 21px; }
+    p, li { line-height: 1.6; }
+    ol { margin-bottom: 0; padding-left: 22px; }
+    a { color: #514bc1; font-weight: 600; }
+    footer { margin-top: 30px; color: #74747f; font-size: 14px; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #0d0d11; color: #f4f4f6; }
+      .intro, footer { color: #a4a4ae; }
+      section { background: #18181e; border-color: #2d2d36; }
+      a { color: #aaa6ff; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">↕</div>
+    <h1>TowerShot Support</h1>
+    <p class="intro">Help with turning overlapping screenshots or a screen recording into one seamless long image.</p>
+
+    <section>
+      <h2>Quick tips</h2>
+      <ol>
+        <li>Select screenshots in top-to-bottom order and keep some repeated content between each image.</li>
+        <li>Keep the page width and zoom unchanged while capturing.</li>
+        <li>For screen recordings, lock orientation and scroll slowly downward.</li>
+        <li>If a join needs help, use Fine Tune to move either screenshot directly.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Screen recording not detected?</h2>
+      <p>Wait for the recording to finish saving in Photos, return to TowerShot, then choose <strong>Use a Screen Recording</strong> again. Full Photos access is needed for automatic discovery of the new recording.</p>
+    </section>
+
+    <section>
+      <h2>Contact support</h2>
+      <p>For a bug report or feature request, <a href="https://github.com/tungchihyu/towershot-support/issues/new">open a support request on GitHub</a>. Please include your device model, iOS or iPadOS version, and a short description of what happened. Do not attach private screenshots unless you are comfortable sharing them publicly.</p>
+    </section>
+
+    <footer>
+      <a href="privacy.html">Privacy Policy</a> · TowerShot processes stitching on device.
+    </footer>
+  </main>
+</body>
+</html>
